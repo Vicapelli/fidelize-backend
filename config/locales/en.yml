@@ -30,4 +30,20 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  activerecord:
+    attributes:
+      user:
+        password_confirmation: "Passwords"
+    errors:
+      models:
+        user:
+          attributes:
+            login:
+              taken: "already exists."
+            email:
+              taken: "already exists."
+            password:
+              invalid: "must have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least eight characters long."
+            password_confirmation:
+              confirmation: "does not match."
   hello: "Hello world"
